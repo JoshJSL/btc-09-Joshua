@@ -1,4 +1,4 @@
-FROM node:lts-alpine
+FROM node:12
 COPY ./* /usr/src/app
 RUN npm install
 EXPOSE 3000
