@@ -1,4 +1,4 @@
-FROM node:version
+FROM node:lts-alpine
 
 COPY ./* /usr/src/app
 RUN npm install
